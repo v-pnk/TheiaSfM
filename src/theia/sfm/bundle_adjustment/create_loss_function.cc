@@ -37,6 +37,8 @@
 #include <ceres/ceres.h>
 #include <memory>
 
+#include <glog/logging.h>
+
 namespace theia {
 
 std::unique_ptr<ceres::LossFunction> CreateLossFunction(
